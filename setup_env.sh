@@ -125,7 +125,7 @@ SSH_AUTHORIZED_KEYS_FILE=$HOME/oracle-freetier-instance-creation/id_rsa.pub
 OCI_SUBNET_ID=$SUBNET_ID
 OCI_IMAGE_ID=$IMAGE_ID
 # The following will be ignored if OCI_IMAGE_ID is specified
-OPERATING_SYSTEM=Canonical Ubuntu
+OPERATING_SYSTEM="Canonical Ubuntu"
 OS_VERSION=22.04
 
 # Gmail Notification
